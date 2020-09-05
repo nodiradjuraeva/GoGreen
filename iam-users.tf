@@ -120,7 +120,7 @@ module "iam_group_monitor" {
     module.monitor_user1.this_iam_user_name,
     module.monitor_user2.this_iam_user_name,
     module.monitor_user3.this_iam_user_name,
-    module.monintor_user4.this_iam_user_name,
+    module.monitor_user4.this_iam_user_name,
   ]
 
   custom_group_policy_arns = [
